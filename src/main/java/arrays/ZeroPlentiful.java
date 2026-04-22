@@ -1,5 +1,11 @@
 package arrays;
 
+/* An array is considered zero-plentiful if it contains at least one span of zeros and every span of zeros contains at least four elements.
+Your Task:
+Write a function named isZeroPlentiful that accepts an integer array a and returns:
+The number of zero spans in the array if the array is zero-plentiful.
+0 if the array is not zero-plentiful or if it contains no zeros at all. */
+
 public class ZeroPlentiful {
     public static int isZeroPlentiful(int[] a) {
         if (a == null || a.length < 4) {
